@@ -41,9 +41,22 @@ class LinkedList:
         while node.next != None:
             node = node.next
         node.next = Node(item)
-    
-    def insert(self, index, data):
-        return
+   
+    def insertBefore(self, index, data):
+        # create new node
+        newNode = Node(data)
+        # find target node to insert
+        ptr_node = self.nodeAt(index)
+        if ptr_node == None:
+            print('Data cannot be added')
+        else:
+            if index == 0 :
+                 newNode.next = self.head
+                 self.head = newNode
+            else:
+                newNode.next = ptr_node
+                self.nodeAt(index-1).next = newNode
+            self.size += 1
     
     def indexOf(self, data):
         q = self.head
@@ -62,29 +75,22 @@ class LinkedList:
 
 L = LinkedList()
 
-n4 = Node('D')
-n3 = Node('C', n4)
-n2 = Node('B', n3)
-n1 = Node('A', n2)
+inp = input('Enter Input : ').split(',')
+addList_ = inp[0].split()
+addVal_ = [item.replace(" ","").split(':') for item in inp[1:]]
 
-print(n1)
-print(n1.next)
-print(n1.next.next)
-print(n1.next.next.next)
+for i in range(len(addList_)):
+    L.append(addList_[i])
 
-L.append('I')
-L.append('J')
-L.append('K')
-L.append('L')
-L.append('A')
-L.append('B')
-L.append('C')
-L.append('D')
-L.append('E')
-L.append('F')
-L.append('G')
-L.append('H')
+print(L)
 
-
-print("Index : " + str(L.indexOf('L')))
-print("Value : " + str(L.nodeAt(11)))
+for i in range(len(addVal_)):
+    if int(addVal_[i][0]) == L.size:
+        L.append(int(addVal_[i][1]))
+        print(f'index = {addVal_[i][0]} and data = {addVal_[i][1]}')
+    elif int(addVal_[i][0])>L.size or int(addVal_[i][0])<0:
+        print('Data cannot be added')
+    else:
+        L.insertBefore(int(addVal_[i][0]), int(addVal_[i][1]))
+        print(f'index = {addVal_[i][0]} and data = {addVal_[i][1]}')
+    print(L)
