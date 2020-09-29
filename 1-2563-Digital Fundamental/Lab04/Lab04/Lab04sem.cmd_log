@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab04/Lab04/Lab04sem.xst" -ofn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab04/Lab04/Lab04sem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab4Pin.ucf -uc Lab04sem.ucf -p xc6slx9-tqg144-3 "Lab04sem.ngc" Lab04sem.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab04sem_map.ncd Lab04sem.ngd Lab04sem.pcf 
+par -w -intstyle ise -ol high -mt off Lab04sem_map.ncd Lab04sem.ncd Lab04sem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab04sem.twx Lab04sem.ncd -o Lab04sem.twr Lab04sem.pcf -ucf Lab4Pin.ucf -ucf Lab04sem.ucf 
+bitgen -intstyle ise -f Lab04sem.ut Lab04sem.ncd 

@@ -1,0 +1,79 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Lab04sem.vf
+// /___/   /\     Timestamp : 09/17/2020 11:07:40
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab04/Lab04/Lab04sem.vf" -w "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab04/Lab04/Lab04sem.sch"
+//Design Name: Lab04sem
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Lab04sem(B_P57, 
+                D_P58, 
+                E_P59, 
+                H_P55, 
+                S_P56, 
+                Buzzer_P83);
+
+    input B_P57;
+    input D_P58;
+    input E_P59;
+    input H_P55;
+    input S_P56;
+   output Buzzer_P83;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   
+   AND2  XLXI_1 (.I0(XLXN_1), 
+                .I1(H_P55), 
+                .O(XLXN_3));
+   AND2  XLXI_2 (.I0(E_P59), 
+                .I1(XLXN_2), 
+                .O(XLXN_4));
+   AND2  XLXI_3 (.I0(D_P58), 
+                .I1(XLXN_8), 
+                .O(XLXN_5));
+   AND2  XLXI_4 (.I0(E_P59), 
+                .I1(XLXN_7), 
+                .O(XLXN_6));
+   AND2  XLXI_5 (.I0(XLXN_9), 
+                .I1(S_P56), 
+                .O(XLXN_2));
+   AND2  XLXI_6 (.I0(XLXN_10), 
+                .I1(B_P57), 
+                .O(XLXN_8));
+   OR4  XLXI_7 (.I0(XLXN_6), 
+               .I1(XLXN_5), 
+               .I2(XLXN_4), 
+               .I3(XLXN_3), 
+               .O(Buzzer_P83));
+   INV  XLXI_8 (.I(E_P59), 
+               .O(XLXN_1));
+   INV  XLXI_9 (.I(B_P57), 
+               .O(XLXN_9));
+   INV  XLXI_10 (.I(S_P56), 
+                .O(XLXN_10));
+   INV  XLXI_11 (.I(D_P58), 
+                .O(XLXN_7));
+endmodule

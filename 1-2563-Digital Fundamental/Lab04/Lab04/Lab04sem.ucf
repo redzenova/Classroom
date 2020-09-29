@@ -1,0 +1,9 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "B_P57" LOC = P57;
+NET "Buzzer_P83" LOC = P83;
+NET "D_P58" LOC = P58;
+NET "E_P59" LOC = P59;
+NET "H_P55" LOC = P55;
+NET "S_P56" LOC = P56;

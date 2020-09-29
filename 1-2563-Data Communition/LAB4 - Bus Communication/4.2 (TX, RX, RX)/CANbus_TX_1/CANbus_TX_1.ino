@@ -11,28 +11,31 @@
 /*====================| Control and Setting |====================*/
   #define TX_PIN                  11
   #define RX_PIN                  10
-  #define Monitor_Buadrate        9600
+  #define Monitor_Buadrate        115200
   #define Communication_Buadrate  57600
-    
-  String SENDER_ID = " ";
-  String RECIVER_ID = " ";
+
+  bool enteredSenderID = false;
+  bool enteredReciverID = false;
+  String Sender_ID ;
+  String Reciver_ID;
 
   SoftwareSerial DataLink(RX_PIN, TX_PIN);
 
   /* Frame design */
   const uint8_t maximumFrame  = 20 ;     //Maximum Frame per 1 round to sent : more Frame more Memory!!
-  uint8_t frameSize           = 8 ;
+  uint8_t frameSize           = 16 ;
   uint8_t frame_number        = 0 ;
   
   struct Frame { 
-    uint8_t seq         = 0 ;
-    String flag         = "@$" ;
+    int seq         = 0 ;
+    int seqAll      = 0 ;
+    String flag         = ":" ;
     String src_address  = " " ;
     String dst_address  = " " ;
     String data         = " " ;
 
     String getFrame(){
-      return flag + src_address + dst_address + seq  + data + flag ;
+      return src_address + flag + dst_address + flag + String(seq) + flag + String(seqAll) + flag + data + flag;
     }
   };
 
@@ -40,7 +43,7 @@
 
   
   /* Data */
-  String payload = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+1234567890-=";
+  String payload = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+12ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+1234567890-=";
   
 
 /*======================| Define Function |======================*/
@@ -64,13 +67,14 @@ void MakeFrame(String data, String src, String dst){
   //Serial.print(i);
       if(count != len){
           if (i%frameSize == 0){
-              for (int j = 0; j < 8 ; j++){
+              for (int j = 0; j < frameSize ; j++){
                 tmp += data[j+i];
               }
             frame[frame_number].data = tmp;
             frame[frame_number].src_address = src;
             frame[frame_number].dst_address = dst;
             frame[frame_number].seq = count;
+            frame[frame_number].seqAll = len+1;
             frame_number += 1;
           //Serial.println(tmp);
           tmp = "";
@@ -88,6 +92,7 @@ void MakeFrame(String data, String src, String dst){
         frame[frame_number].src_address = src;
         frame[frame_number].dst_address = dst;
         frame[frame_number].seq = count;
+        frame[frame_number].seqAll = len+1;
         //Serial.println(tmp);
         count++;
         frame_number = count;
@@ -103,53 +108,58 @@ void setup() {
   Serial.begin(Monitor_Buadrate);
   DataLink.begin(Communication_Buadrate);
 
-  while(SENDER_ID == " "){
-    Serial.println("Enter ID : ");
-    if(Serial.available()){
-        SENDER_ID = Serial.readStringUntil('\n');
-        Serial.println("My ID is : " + SENDER_ID);
+  //Set Sender ID
+  Serial.println("Enter Your ID : ");
+  while (!enteredSenderID) {
+    if (Serial.available()) {
+      SENDER_ID = Serial.readStringUntil('\n');
+      Serial.println("--> My Id : " + SENDER_ID);
+      enteredSenderID = true;
     }
-    delay(1000);
   }
 
-  while(RECIVER_ID == " "){
-    Serial.println("Reciver ID : ");
-    if(Serial.available()){
-        RECIVER_ID = Serial.readStringUntil('\n');
-        Serial.println("Reciver is : " + RECIVER_ID);
+  //Set Reciever ID
+  Serial.println("Enter Reciver ID : ");
+  while (!enteredReciverID) {
+    if (Serial.available()) {
+      RECIVER_ID = Serial.readStringUntil('\n');
+      Serial.println("--> Reciver Id : " + RECIVER_ID);
+      if(RECIVER_ID != SENDER_ID){
+        enteredReciverID = true;
+      } else {
+        Serial.println("ID is invalid! please enter again : ");
+      }
+      
     }
-    delay(1000);
   }
-
-  MakeFrame(payload, SENDER_ID, RECIVER_ID);
-
-  for (int i=0; i < frame_number; i++){
-    Serial.println(frame[i].getFrame());
-  }
-
+  Serial.println("============================");
 }
 
 /*======================| @LOOP Function |======================*/
-int8_t  SN = 0;
-boolean canSend = true;
+
+bool canSend = true;
+long timer = 0;
+uint8_t askFrame = 0 ;
+
+String ch ;
 
 void loop() {
 
+   if (canSend) {
+    MakeFrame(payload, SENDER_ID, RECIVER_ID);
+    
+    String data = frame[askFrame].getFrame();
+    
+    for (int i = 0; i < data.length(); i++) {
+      DataLink.write(data[i]);
+    }
+    canSend = false;
+   }
 
-//  if(DataLink.available()){   //WaitForEvent();
-//    
-//  }
-//  
-//
-//
-//  
-//  String Data = frame.getFrame();
-//  for (int i=0; Data[i] != '\0' ; i++){
-//    DataLink.write(Data[i]);
-//    delay(10);
-//    flushData();
-//  }
-//  delay(500);
-//  DataLink.write('\n');
+   if (DataLink.available() > 0){
+    ch = DataLink.readStringUntil('\n');
 
+    Serial.println("Asl request : " + ch);
+   
+   }
 }
