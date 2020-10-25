@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.xst" -ofn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05.ucf -p xc6slx9-tqg144-3 "Lab05.ngc" Lab05.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_map.ncd Lab05.ngd Lab05.pcf 
+par -w -intstyle ise -ol high -mt off Lab05_map.ncd Lab05.ncd Lab05.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05.twx Lab05.ncd -o Lab05.twr Lab05.pcf -ucf Lab05.ucf 
+xst -intstyle ise -ifn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.xst" -ofn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05.ucf -p xc6slx9-tqg144-3 "Lab05.ngc" Lab05.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_map.ncd Lab05.ngd Lab05.pcf 
+par -w -intstyle ise -ol high -mt off Lab05_map.ncd Lab05.ncd Lab05.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05.twx Lab05.ncd -o Lab05.twr Lab05.pcf -ucf Lab05.ucf 
+bitgen -intstyle ise -f Lab05.ut Lab05.ncd 
+xst -intstyle ise -ifn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.xst" -ofn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05.ucf -p xc6slx9-tqg144-3 "Lab05.ngc" Lab05.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_map.ncd Lab05.ngd Lab05.pcf 
+par -w -intstyle ise -ol high -mt off Lab05_map.ncd Lab05.ncd Lab05.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05.twx Lab05.ncd -o Lab05.twr Lab05.pcf -ucf Lab05.ucf 
+bitgen -intstyle ise -f Lab05.ut Lab05.ncd 
+xst -intstyle ise -ifn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.xst" -ofn "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/Lab05.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05.ucf -p xc6slx9-tqg144-3 "Lab05.ngc" Lab05.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_map.ncd Lab05.ngd Lab05.pcf 
+par -w -intstyle ise -ol high -mt off Lab05_map.ncd Lab05.ncd Lab05.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05.twx Lab05.ncd -o Lab05.twr Lab05.pcf -ucf Lab05.ucf 
+bitgen -intstyle ise -f Lab05.ut Lab05.ncd 

@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Oct 08 12:37:22 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "c_out" LOCATE = SITE "P35" LEVEL 1;
+COMP "d_out" LOCATE = SITE "P34" LEVEL 1;
+COMP "e_out" LOCATE = SITE "P32" LEVEL 1;
+COMP "f_out" LOCATE = SITE "P29" LEVEL 1;
+COMP "A" LOCATE = SITE "P47" LEVEL 1;
+COMP "B" LOCATE = SITE "P56" LEVEL 1;
+COMP "C" LOCATE = SITE "P57" LEVEL 1;
+COMP "D" LOCATE = SITE "P58" LEVEL 1;
+COMP "g_out" LOCATE = SITE "P27" LEVEL 1;
+COMP "a_out" LOCATE = SITE "P41" LEVEL 1;
+COMP "b_out" LOCATE = SITE "P40" LEVEL 1;
+SCHEMATIC END;
+

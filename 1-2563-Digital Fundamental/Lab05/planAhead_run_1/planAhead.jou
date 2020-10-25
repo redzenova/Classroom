@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Oct 08 11:53:19 2020
+# Process ID: 23280
+# Log file: C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P55 [get_ports A]
+endgroup
+set_property package_pin "" [get_ports [list  a_out]]
+startgroup
+set_property package_pin P56 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports C]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports D]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports a_out]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports b_out]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports D]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports c_out]
+endgroup
+startgroup
+set_property package_pin P34 [get_ports d_out]
+endgroup
+set_property package_pin "" [get_ports [list  f_out]]
+startgroup
+set_property package_pin P32 [get_ports e_out]
+endgroup
+startgroup
+set_property package_pin P29 [get_ports f_out]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports g_out]
+endgroup
+save_constraints

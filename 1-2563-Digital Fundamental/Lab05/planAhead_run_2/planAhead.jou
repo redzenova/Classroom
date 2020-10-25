@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Oct 08 12:07:24 2020
+# Process ID: 5116
+# Log file: C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab05/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
