@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Redzer0\Desktop\Classroom\1-2563-Digital Fundamental\Lab8.Adder\main.ncd
+OUTFILE=C:\Users\Redzer0\Desktop\Classroom\1-2563-Digital Fundamental\Lab8.Adder\main.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Redzer0\Desktop\Classroom\1-2563-Digital Fundamental\Lab8.Adder
+LICENSE=WebPack
+USER_INFO=__0_0_0

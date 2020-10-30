@@ -1,0 +1,226 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc6slx9-tqg144-3 main.ngc
+main.ngd
+
+Reading NGO file "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital
+Fundamental/Lab8.Adder/main.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "main.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG<0>" LOC = P41>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG<1>" LOC = P40>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG<2>" LOC = P35>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG<3>" LOC = P34>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG<4>" LOC = P32>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG<5>" LOC = P29>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG<6>" LOC = P27>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "COM<0>" LOC = P44>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "COM<1>" LOC = P43>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "COM<2>" LOC = P33>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "COM<3>" LOC = P30>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<0>" LOC = P66>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<1>" LOC = P62>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<2>" LOC = P61>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<3>" LOC = P59>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<4>" LOC = P58>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<5>" LOC = P57>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<6>" LOC = P56>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW<7>" LOC = P55>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<0>" LOC = P112>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<1>" LOC = P111>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<2>" LOC = P105>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<3>" LOC = P104>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<4>" LOC = P102>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<5>" LOC = P101>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<6>" LOC = P100>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "DIP<7>" LOC = P99>' could not be found and so the Locate constraint
+   will be removed.
+
+WARNING:NgdBuild:1012 - The constraint <NET "SEG<0>" LOC = P41> is overridden on
+   the design object SEG<0> by the constraint <NET "SEG[0]" LOC = P41;>
+   [main.ucf(24)].
+WARNING:NgdBuild:1012 - The constraint <NET "SEG<1>" LOC = P40> is overridden on
+   the design object SEG<1> by the constraint <NET "SEG[1]" LOC = P40;>
+   [main.ucf(25)].
+WARNING:NgdBuild:1012 - The constraint <NET "SEG<2>" LOC = P35> is overridden on
+   the design object SEG<2> by the constraint <NET "SEG[2]" LOC = P35;>
+   [main.ucf(26)].
+WARNING:NgdBuild:1012 - The constraint <NET "SEG<3>" LOC = P34> is overridden on
+   the design object SEG<3> by the constraint <NET "SEG[3]" LOC = P34;>
+   [main.ucf(27)].
+WARNING:NgdBuild:1012 - The constraint <NET "SEG<4>" LOC = P32> is overridden on
+   the design object SEG<4> by the constraint <NET "SEG[4]" LOC = P32;>
+   [main.ucf(28)].
+WARNING:NgdBuild:1012 - The constraint <NET "SEG<5>" LOC = P29> is overridden on
+   the design object SEG<5> by the constraint <NET "SEG[5]" LOC = P29;>
+   [main.ucf(29)].
+WARNING:NgdBuild:1012 - The constraint <NET "SEG<6>" LOC = P27> is overridden on
+   the design object SEG<6> by the constraint <NET "SEG[6]" LOC = P27;>
+   [main.ucf(30)].
+WARNING:NgdBuild:1012 - The constraint <NET "COM<0>" LOC = P44> is overridden on
+   the design object COM<0> by the constraint <NET "COM[0]" LOC = P44;>
+   [main.ucf(7)].
+WARNING:NgdBuild:1012 - The constraint <NET "COM<1>" LOC = P43> is overridden on
+   the design object COM<1> by the constraint <NET "COM[1]" LOC = P43;>
+   [main.ucf(6)].
+WARNING:NgdBuild:1012 - The constraint <NET "COM<2>" LOC = P33> is overridden on
+   the design object COM<2> by the constraint <NET "COM[2]" LOC = P33;>
+   [main.ucf(5)].
+WARNING:NgdBuild:1012 - The constraint <NET "COM<3>" LOC = P30> is overridden on
+   the design object COM<3> by the constraint <NET "COM[3]" LOC = P30;>
+   [main.ucf(4)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<0>" LOC = P66> is overridden on
+   the design object SW<0> by the constraint <NET "SW[0]" LOC = P66;>
+   [main.ucf(16)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<1>" LOC = P62> is overridden on
+   the design object SW<1> by the constraint <NET "SW[1]" LOC = P62;>
+   [main.ucf(17)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<2>" LOC = P61> is overridden on
+   the design object SW<2> by the constraint <NET "SW[2]" LOC = P61;>
+   [main.ucf(18)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<3>" LOC = P59> is overridden on
+   the design object SW<3> by the constraint <NET "SW[3]" LOC = P59;>
+   [main.ucf(19)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<4>" LOC = P58> is overridden on
+   the design object SW<4> by the constraint <NET "SW[4]" LOC = P58;>
+   [main.ucf(20)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<5>" LOC = P57> is overridden on
+   the design object SW<5> by the constraint <NET "SW[5]" LOC = P57;>
+   [main.ucf(21)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<6>" LOC = P56> is overridden on
+   the design object SW<6> by the constraint <NET "SW[6]" LOC = P56;>
+   [main.ucf(22)].
+WARNING:NgdBuild:1012 - The constraint <NET "SW<7>" LOC = P55> is overridden on
+   the design object SW<7> by the constraint <NET "SW[7]" LOC = P55;>
+   [main.ucf(23)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<0>" LOC = P112> is overridden
+   on the design object DIP<0> by the constraint <NET "DIP[0]" LOC = P112;>
+   [main.ucf(8)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<1>" LOC = P111> is overridden
+   on the design object DIP<1> by the constraint <NET "DIP[1]" LOC = P111;>
+   [main.ucf(10)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<2>" LOC = P105> is overridden
+   on the design object DIP<2> by the constraint <NET "DIP[2]" LOC = P105;>
+   [main.ucf(11)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<3>" LOC = P104> is overridden
+   on the design object DIP<3> by the constraint <NET "DIP[3]" LOC = P104;>
+   [main.ucf(12)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<4>" LOC = P102> is overridden
+   on the design object DIP<4> by the constraint <NET "DIP[4]" LOC = P102;>
+   [main.ucf(13)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<5>" LOC = P101> is overridden
+   on the design object DIP<5> by the constraint <NET "DIP[5]" LOC = P101;>
+   [main.ucf(15)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<6>" LOC = P100> is overridden
+   on the design object DIP<6> by the constraint <NET "DIP[6]" LOC = P100;>
+   [main.ucf(14)].
+WARNING:NgdBuild:1012 - The constraint <NET "DIP<7>" LOC = P99> is overridden on
+   the design object DIP<7> by the constraint <NET "DIP[7]" LOC = P99;>
+   [main.ucf(9)].
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  54
+
+Total memory usage is 4390848 kilobytes
+
+Writing NGD file "main.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "main.bld"...

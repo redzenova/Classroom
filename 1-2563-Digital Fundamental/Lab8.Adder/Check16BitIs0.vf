@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Check16BitIs0.vf
+// /___/   /\     Timestamp : 10/28/2020 22:50:28
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/Check16BitIs0.vf" -w "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/Check16BitIs0.sch"
+//Design Name: Check16BitIs0
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Check16BitIs0(BIN, 
+                     EQ);
+
+    input [15:0] BIN;
+   output EQ;
+   
+   wire [3:0] Q;
+   
+   AND4B4  XLXI_1_0 (.I0(BIN[12]), 
+                    .I1(BIN[8]), 
+                    .I2(BIN[4]), 
+                    .I3(BIN[0]), 
+                    .O(Q[0]));
+   AND4B4  XLXI_1_1 (.I0(BIN[13]), 
+                    .I1(BIN[9]), 
+                    .I2(BIN[5]), 
+                    .I3(BIN[1]), 
+                    .O(Q[1]));
+   AND4B4  XLXI_1_2 (.I0(BIN[14]), 
+                    .I1(BIN[10]), 
+                    .I2(BIN[6]), 
+                    .I3(BIN[2]), 
+                    .O(Q[2]));
+   AND4B4  XLXI_1_3 (.I0(BIN[15]), 
+                    .I1(BIN[11]), 
+                    .I2(BIN[7]), 
+                    .I3(BIN[3]), 
+                    .O(Q[3]));
+   AND4  XLXI_2 (.I0(Q[3]), 
+                .I1(Q[2]), 
+                .I2(Q[1]), 
+                .I3(Q[0]), 
+                .O(EQ));
+endmodule

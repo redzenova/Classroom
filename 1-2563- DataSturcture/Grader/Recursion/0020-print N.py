@@ -1,12 +1,12 @@
 def print1ToN(a):
-    if (a <= 1):
+    if a <= 1:
         return print(1, end=' ')
     print1ToN(a-1)    
     print(a, end=' ')
 
 
 def printNto1(a):
-    if (a <= 1):
+    if a <= 1:
         return print(1)
     else:
         print(a, end=' ')

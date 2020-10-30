@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ClockDivider.vf
+// /___/   /\     Timestamp : 10/28/2020 22:50:30
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/ClockDivider.vf" -w "C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/ClockDivider.sch"
+//Design Name: ClockDivider
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module CB16CE_HXILINX_ClockDivider(CEO, Q, TC, C, CE, CLR);
+   
+   localparam TERMINAL_COUNT = 16'b1111_1111_1111_1111;
+   
+   output             CEO;
+   output [15:0]      Q;
+   output             TC;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      CLR;	
+   
+   reg    [15:0]      Q;
+   
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 16'b0000_0000_0000_0000;
+	else if (CE)
+	  Q <= Q + 1;
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = (Q == TERMINAL_COUNT);
+   
+endmodule
+`timescale 1ns / 1ps
+
+module ClockDivider(ClockIn, 
+                    CLK7Seg);
+
+    input ClockIn;
+   output CLK7Seg;
+   
+   wire [15:0] Q;
+   wire XLXN_52;
+   wire XLXN_56;
+   
+   VCC  XLXI_37 (.P(XLXN_52));
+   GND  XLXI_38 (.G(XLXN_56));
+   (* HU_SET = "XLXI_40_10" *) 
+   CB16CE_HXILINX_ClockDivider  XLXI_40 (.C(ClockIn), 
+                                        .CE(XLXN_52), 
+                                        .CLR(XLXN_56), 
+                                        .CEO(), 
+                                        .Q(Q[15:0]), 
+                                        .TC());
+   BUF  XLXI_41 (.I(Q[15]), 
+                .O(CLK7Seg));
+endmodule

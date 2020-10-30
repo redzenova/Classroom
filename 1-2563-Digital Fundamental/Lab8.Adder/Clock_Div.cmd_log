@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Clock_Div {C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/Clock_Div.sch} {C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/Clock_Div.sym} 

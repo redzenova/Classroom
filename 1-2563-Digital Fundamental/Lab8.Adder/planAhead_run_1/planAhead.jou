@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 28 22:50:40 2020
+# Process ID: 20880
+# Log file: C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P30 [get_ports {COM[3]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {COM[2]}]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports {COM[1]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {COM[0]}]
+endgroup
+startgroup
+set_property package_pin P100 [get_ports {DIP[7]}]
+endgroup
+startgroup
+set_property package_pin P112 [get_ports {DIP[0]}]
+endgroup
+startgroup
+set_property package_pin P99 [get_ports {DIP[7]}]
+endgroup
+startgroup
+set_property package_pin P100 [get_ports {DIP[6]}]
+endgroup
+startgroup
+set_property package_pin P111 [get_ports {DIP[1]}]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports {DIP[2]}]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports {DIP[3]}]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports {DIP[4]}]
+endgroup
+startgroup
+set_property package_pin P100 [get_ports {DIP[6]}]
+endgroup
+startgroup
+set_property package_pin P101 [get_ports {DIP[5]}]
+endgroup
+startgroup
+set_property package_pin P66 [get_ports {SW[0]}]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports {SW[1]}]
+endgroup
+startgroup
+set_property package_pin P61 [get_ports {SW[2]}]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports {SW[3]}]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports {SW[4]}]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports {SW[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SW[7]}]]
+startgroup
+set_property package_pin P56 [get_ports {SW[6]}]
+endgroup
+startgroup
+set_property package_pin P55 [get_ports {SW[7]}]
+endgroup
+startgroup
+set_property package_pin P41 [get_ports {SEG[0]}]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports {SEG[1]}]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports {SEG[2]}]
+endgroup
+startgroup
+set_property package_pin P34 [get_ports {SEG[3]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {SEG[4]}]
+endgroup
+startgroup
+set_property package_pin P29 [get_ports {SEG[5]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {SEG[6]}]
+endgroup
+save_constraints

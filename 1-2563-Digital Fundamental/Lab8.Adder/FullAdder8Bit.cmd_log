@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym FullAdder8Bit {C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/FullAdder8Bit.sch} {C:/Users/Redzer0/Desktop/Classroom/1-2563-Digital Fundamental/Lab8.Adder/FullAdder8Bit.sym} 
