@@ -1,84 +1,136 @@
 class Node:
-    def __init__(self, data, next = None):
+
+    def __init__(self, data):
         self.data = data
-        if next == None:
-            self.next = None
-        else:
-            self.next = next
-    
-    def __str__(self):
-        return self.data
+        self.next = None
+        self.previous = None
 
 class LinkedList:
 
     def __init__(self):
-        self.head = None
-        self.size = 0
+        self.head = self.tail = Node('|')
+        self._size = 1
 
     def __str__(self):
         if self.isEmpty():
-            return 'List is empty'
-        cur = self.head
-        s = str(self.head.data) + " "
+            return ""
+        cur, s = self.head, str(self.head.data) 
         while cur.next != None:
-            s += str(cur.next.data) + " "
+            s += " " + str(cur.next.data)
             cur = cur.next
-        #s = s[:-2]
         return s
 
-    def isEmpty(self):
-        return self.head == None
+    def insert(self, data):
+        node = Node(data)
+        self._size += 1
 
-    def __len__(self):
-        return self.size
+        cur = self.head
+        while cur.data != '|':
+            cur = cur.next
 
-    def append(self, item):
-        self.size += 1
-        if self.isEmpty():
-            self.head = Node(item)
+        node.next = cur
+        if cur.previous != None:
+            cur.previous.next = node
+        node.previous = cur.previous
+        if cur.previous == None:
+            self.head = node
+        cur.previous = node
+
+    def left(self):
+        if self.head.data == '|':
             return
-        node = self.head
-        while node.next != None:
-            node = node.next
-        node.next = Node(item)
-   
-    def insertBefore(self, index, data):
-        # create new node
-        newNode = Node(data)
-        # find target node to insert
-        ptr_node = self.nodeAt(index)
-        if ptr_node == None:
-            print('Data cannot be added')
-        else:
-            if index == 0 :
-                 newNode.next = self.head
-                 self.head = newNode
-            else:
-                newNode.next = ptr_node
-                self.nodeAt(index-1).next = newNode
-            self.size += 1
-    
-    def indexOf(self, data):
-        q = self.head
-        for i in range(len(self)):
-            if q.data == data:
-                return i
-            q = q.next
-        return -1
-    
-    def nodeAt(self, index):
-        p = self.head
-        for j in range(0, index):
-            p = p.next
-        return p
 
-L = LinkedList()
-inp = input('Enter Input : ').split(',')
-lst = [item.split(' ') for item in inp[0:]]
+        cur = self.head
+        while cur.next.data != '|':
+            cur = cur.next
 
-for i in range(len(inp)):
-    if lst[i][0] == 'I':
-        L.append(lst[i][1])
+        node = cur.next
+        if cur.previous != None:
+            cur.previous.next = node
+        cur.next = node.next
+        node.next = cur
+        node.previous = cur.previous
+        if cur.previous != None:
+            cur.previous = node
+
+        if cur.next == None:
+             self.tail = cur
+        if node.previous == None:
+             self.head = node
+
+    def right(self):
+        if self.tail.data == '|':
+            return
         
-L.append('|')
-print(L)
+        cur = self.head
+        while cur.data != '|':
+            cur = cur.next
+
+        node = cur.next
+        if cur.previous != None:
+            cur.previous.next = node
+        else:
+            self.head = node
+        cur.next = node.next
+        if node.next != None:
+            node.next.previous = cur
+        else:
+            self.tail = cur
+        node.next = cur
+        node.previous = cur.previous
+        cur.previous = node
+
+    def delete(self):
+        if self.tail.data == '|' or self.size() < 2:
+            return
+
+        cur = self.head
+        while cur.data != '|':
+            cur = cur.next
+
+        node = cur.next
+        cur.next = node.next
+        if node.next != None:
+            node.next.previous = cur
+        else:
+            self.tail = cur
+    
+    def backspace(self):
+        if self.head.data == '|':
+            return
+        
+        cur = self.head
+        while cur.next.data != '|':
+            cur = cur.next
+
+        node = cur.next
+        node.previous = cur.previous
+        if cur.previous != None:
+            node.previous.next = node
+        else:
+            self.head = node
+
+    def isEmpty(self):
+        return self.size() == 0
+
+    def size(self):
+        return self._size
+
+if __name__ == '__main__':
+    inp = input('Enter Input : ').split(',')
+
+    L = LinkedList()
+    for data in inp:
+        data = data.split()
+        if data[0] == 'I':
+            L.insert(data[1])
+        elif data[0] == 'L':
+            L.left()
+        elif data[0] == 'R':
+            L.right()
+        elif data[0] == 'D':
+            L.delete()
+        elif data[0] == 'B':
+            L.backspace()
+
+    print(L)

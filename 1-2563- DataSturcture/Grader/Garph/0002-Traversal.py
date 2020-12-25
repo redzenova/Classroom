@@ -20,7 +20,7 @@ def BFT(graph, visited, edge):
 if __name__ == '__main__':
 
     inp = input("Enter : ").split(',')
-
+3
     node, graph = [], {}
     for a in inp:
         a = a.split()

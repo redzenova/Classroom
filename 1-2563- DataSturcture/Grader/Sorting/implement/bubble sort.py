@@ -7,11 +7,13 @@
 #  + Merge Sort
 #  + Quick Sort
 
+count = []
 #Noamal for Loop - Implement
 def BubbleSort(lst):
     for last in range(len(lst)-1, -1, -1):
         swaped = False
         for i in range(last):
+            count.append(1)
             if lst[i] > lst[i+1]:
                 lst[i] , lst[i+1] = lst[i+1], lst[i]
                 swaped = True
@@ -34,8 +36,10 @@ def BubbleSortRe(A, n):
 
 
 
-l = [5,4,3,6,9,8,1,2]
-
-print(l)
-BubbleSortRe(l, len(l))
-print(l)
+print(' *** Bubble sort ***')
+inp = input('Enter some numbers : ').split()
+inp = list(map(int, inp))
+print()
+BubbleSort(inp)
+print(inp)
+print(len(count))
