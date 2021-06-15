@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1617245278 source:/home/pi/Assembly/Lab10/Lab10_LED_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	<wiringPi.h>
+

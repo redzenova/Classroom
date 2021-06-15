@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1618403672 source:/home/pi/asm/Lab11/main.cpp
+	<stdio.h>
+	<errno.h>
+	<wiringPi.h>
+
+1618404617 source:/home/pi/asm/Lab11/Lab11_LEDCOUNT.cpp
+	<stdio.h>
+	<stdint.h>
+	<wiringPi.h>
+
