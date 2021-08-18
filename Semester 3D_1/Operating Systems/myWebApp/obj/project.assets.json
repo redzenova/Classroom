@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\RedzeNAS\\.nuget\\packages\\": {}
+    "C:\\Users\\Redzer0\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RedzeNAS\\Desktop\\Classroom\\Semester 3D_1\\Operating System\\myWebApp\\myWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Redzer0\\Desktop\\Classroom\\Semester 3D_1\\Operating Systems\\myWebApp\\myWebApp.csproj",
       "projectName": "myWebApp",
-      "projectPath": "C:\\Users\\RedzeNAS\\Desktop\\Classroom\\Semester 3D_1\\Operating System\\myWebApp\\myWebApp.csproj",
-      "packagesPath": "C:\\Users\\RedzeNAS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RedzeNAS\\Desktop\\Classroom\\Semester 3D_1\\Operating System\\myWebApp\\obj\\",
+      "projectPath": "C:\\Users\\Redzer0\\Desktop\\Classroom\\Semester 3D_1\\Operating Systems\\myWebApp\\myWebApp.csproj",
+      "packagesPath": "C:\\Users\\Redzer0\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Redzer0\\Desktop\\Classroom\\Semester 3D_1\\Operating Systems\\myWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\RedzeNAS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Redzer0\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
