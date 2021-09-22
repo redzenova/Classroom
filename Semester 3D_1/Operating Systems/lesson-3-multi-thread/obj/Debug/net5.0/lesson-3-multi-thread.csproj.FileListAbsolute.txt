@@ -1,0 +1,16 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\bin\Debug\net5.0\lesson-3-multi-thread.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\bin\Debug\net5.0\lesson-3-multi-thread.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\bin\Debug\net5.0\lesson-3-multi-thread.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\bin\Debug\net5.0\lesson-3-multi-thread.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\bin\Debug\net5.0\lesson-3-multi-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\bin\Debug\net5.0\ref\lesson-3-multi-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\bin\Debug\net5.0\lesson-3-multi-thread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.csproj.AssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\ref\lesson-3-multi-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-3-multi-thread\obj\Debug\net5.0\lesson-3-multi-thread.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.csproj.AssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\bin\Debug\net5.0\lesson-2-thread.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\bin\Debug\net5.0\lesson-2-thread.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\bin\Debug\net5.0\lesson-2-thread.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\bin\Debug\net5.0\lesson-2-thread.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\bin\Debug\net5.0\lesson-2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\bin\Debug\net5.0\ref\lesson-2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\bin\Debug\net5.0\lesson-2-thread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\ref\lesson-2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\lesson-2-thread\obj\Debug\net5.0\lesson-2-thread.genruntimeconfig.cache
