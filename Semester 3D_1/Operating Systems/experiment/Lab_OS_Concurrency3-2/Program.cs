@@ -20,7 +20,7 @@ namespace Lab_OS_Concurrency3_2
         {
             Thread th1 = new Thread(TestThread1);
             th1.Start();
-            //Thread.Sleep(10);
+            //Thread.Sleep(10);'
             th1.Join();
             Console.WriteLine("Resource = {0}", resource);    
         }
