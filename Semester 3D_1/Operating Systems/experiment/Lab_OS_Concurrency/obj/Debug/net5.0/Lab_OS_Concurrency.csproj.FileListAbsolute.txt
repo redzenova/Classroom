@@ -1,0 +1,16 @@
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\bin\Debug\net5.0\Lab_OS_Concurrency.exe
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\bin\Debug\net5.0\Lab_OS_Concurrency.deps.json
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\bin\Debug\net5.0\Lab_OS_Concurrency.runtimeconfig.json
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\bin\Debug\net5.0\Lab_OS_Concurrency.runtimeconfig.dev.json
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\bin\Debug\net5.0\Lab_OS_Concurrency.dll
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\bin\Debug\net5.0\ref\Lab_OS_Concurrency.dll
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\bin\Debug\net5.0\Lab_OS_Concurrency.pdb
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.csproj.AssemblyReference.cache
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.AssemblyInfoInputs.cache
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.AssemblyInfo.cs
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.csproj.CoreCompileInputs.cache
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.dll
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\ref\Lab_OS_Concurrency.dll
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.pdb
+C:\Users\Redzer0\Desktop\Classroom\Semester 3D_1\Operating Systems\experiment\Lab_OS_Concurrency\obj\Debug\net5.0\Lab_OS_Concurrency.genruntimeconfig.cache
