@@ -9,6 +9,9 @@ Problem01.dat not included
 ```
 #> dotnet run -c release
 ```
-![alt text](https://github.com/redzenova/Classroom/tree/master/Semester%203D_1/Operating%20Systems/Case-Study/Image/V2-V3-debug.png?raw=true)
+![alt text](https://github.com/redzenova/Classroom/blob/master/Semester%203D_1/Operating%20Systems/Case-Study/Image/V2-V3-debug.png)
+![alt text](https://github.com/redzenova/Classroom/blob/master/Semester%203D_1/Operating%20Systems/Case-Study/Image/V3-V4-debug.png)
+![alt text](https://github.com/redzenova/Classroom/blob/master/Semester%203D_1/Operating%20Systems/Case-Study/Image/Conclusion-1.png)
+![alt text](https://github.com/redzenova/Classroom/blob/master/Semester%203D_1/Operating%20Systems/Case-Study/Image/Conclusion-time-percent.png)
 
 ## 
