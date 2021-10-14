@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "v3-multithread/1.0.0": {
+        "runtime": {
+          "v3-multithread.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "v3-multithread/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

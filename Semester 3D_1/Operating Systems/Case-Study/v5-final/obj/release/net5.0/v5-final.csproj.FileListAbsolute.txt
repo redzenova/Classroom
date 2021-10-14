@@ -1,0 +1,16 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\bin\release\net5.0\v5-final.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\bin\release\net5.0\v5-final.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\bin\release\net5.0\v5-final.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\bin\release\net5.0\v5-final.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\bin\release\net5.0\v5-final.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\bin\release\net5.0\ref\v5-final.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\bin\release\net5.0\v5-final.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.csproj.AssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\ref\v5-final.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v5-final\obj\release\net5.0\v5-final.genruntimeconfig.cache

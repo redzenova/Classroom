@@ -1,0 +1,13 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\bin\release\netcoreapp3.1\v4-multithread.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\bin\release\netcoreapp3.1\v4-multithread.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\bin\release\netcoreapp3.1\v4-multithread.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\bin\release\netcoreapp3.1\v4-multithread.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\bin\release\netcoreapp3.1\v4-multithread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\bin\release\netcoreapp3.1\v4-multithread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\obj\release\netcoreapp3.1\v4-multithread.csprojAssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\obj\release\netcoreapp3.1\v4-multithread.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\obj\release\netcoreapp3.1\v4-multithread.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\obj\release\netcoreapp3.1\v4-multithread.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\obj\release\netcoreapp3.1\v4-multithread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\obj\release\netcoreapp3.1\v4-multithread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v4-multithread\obj\release\netcoreapp3.1\v4-multithread.genruntimeconfig.cache

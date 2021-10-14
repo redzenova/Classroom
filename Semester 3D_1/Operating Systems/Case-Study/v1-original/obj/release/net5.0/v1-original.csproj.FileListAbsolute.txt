@@ -1,0 +1,16 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\bin\release\net5.0\v1-original.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\bin\release\net5.0\v1-original.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\bin\release\net5.0\v1-original.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\bin\release\net5.0\v1-original.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\bin\release\net5.0\v1-original.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\bin\release\net5.0\ref\v1-original.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\bin\release\net5.0\v1-original.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.csproj.AssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\ref\v1-original.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v1-original\obj\release\net5.0\v1-original.genruntimeconfig.cache

@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace v1_original
 {
-    class Program
+  class Program
     {
         static byte[] Data_Global = new byte[1000000000];
         static long Sum_Global = 0;

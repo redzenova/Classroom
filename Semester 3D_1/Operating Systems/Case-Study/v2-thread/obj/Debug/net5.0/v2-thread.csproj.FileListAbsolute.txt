@@ -1,0 +1,16 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.csproj.AssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\bin\Debug\net5.0\v2-thread.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\bin\Debug\net5.0\v2-thread.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\bin\Debug\net5.0\v2-thread.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\bin\Debug\net5.0\v2-thread.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\bin\Debug\net5.0\v2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\bin\Debug\net5.0\ref\v2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\bin\Debug\net5.0\v2-thread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\ref\v2-thread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v2-thread\obj\Debug\net5.0\v2-thread.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\bin\Debug\net5.0\v3-multithread.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\bin\Debug\net5.0\v3-multithread.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\bin\Debug\net5.0\v3-multithread.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\bin\Debug\net5.0\v3-multithread.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\bin\Debug\net5.0\v3-multithread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\bin\Debug\net5.0\ref\v3-multithread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\bin\Debug\net5.0\v3-multithread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.csproj.AssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\ref\v3-multithread.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Case-Study\v3-multithread\obj\Debug\net5.0\v3-multithread.genruntimeconfig.cache
