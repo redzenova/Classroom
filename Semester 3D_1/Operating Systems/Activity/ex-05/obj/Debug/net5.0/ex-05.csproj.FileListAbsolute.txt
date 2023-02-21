@@ -1,0 +1,16 @@
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\bin\Debug\net5.0\ex-05.exe
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\bin\Debug\net5.0\ex-05.deps.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\bin\Debug\net5.0\ex-05.runtimeconfig.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\bin\Debug\net5.0\ex-05.runtimeconfig.dev.json
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\bin\Debug\net5.0\ex-05.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\bin\Debug\net5.0\ref\ex-05.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\bin\Debug\net5.0\ex-05.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.csproj.AssemblyReference.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.AssemblyInfoInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.AssemblyInfo.cs
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.csproj.CoreCompileInputs.cache
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ref\ex-05.dll
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.pdb
+C:\Users\RedzeNAS\Desktop\Classroom\Semester 3D_1\Operating Systems\Activity\ex-05\obj\Debug\net5.0\ex-05.genruntimeconfig.cache
