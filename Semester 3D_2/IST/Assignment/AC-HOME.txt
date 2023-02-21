@@ -1,0 +1,43 @@
+enable
+configure terminal
+hostname HOME-RT
+
+enable secret ADmiN@@#IST
+
+interface vlan 50
+description DEFUALT-NET
+ip address 61.19.23.158 255.255.255.252
+exit
+
+
+interface vlan 201
+description BUSINESS-SERVICE
+ip address 203.159.92.1 255.255.255.224
+exit
+
+interface range gi 0/1/0-3
+switchport access vlan 201
+no shutdown
+exit
+
+interface range gi 0/2/0-1
+switchport access vlan 50
+no shutdown
+exit
+
+interface range gigabitEthernet 0/2/2-3
+description UPLINK to CORE-NETWORK
+switchport mode trunk
+switchport trunk allowed vlan all
+exit
+
+service dhcp
+ip dhcp pool HOME-WAN-SERVICE
+network 203.159.92.0 255.255.255.224
+default-router 203.159.92.1
+ex
+ip dhcp excluded-address 203.159.92.1
+ip dhcp excluded-address 203.159.92.30
+
+ip route 0.0.0.0 0.0.0.0 61.19.23.157
+ip default-gateway 61.19.23.157

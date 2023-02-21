@@ -1,0 +1,35 @@
+enable
+configure terminal
+hostname BUSINESS-RT
+
+enable secret ADmiN@@#IST
+
+interface vlan 50
+description DEFUALT-NET
+ip address 61.19.23.150 255.255.255.252
+exit
+
+interface vlan 100
+description BUSINESS-SERVICE
+ip address 61.7.236.81 255.255.255.240
+exit
+
+
+interface range gi 0/1/0-3
+switchport access vlan 100
+no shutdown
+exit
+
+interface range gi 0/2/2-3
+switchport access vlan 50
+no shutdown
+exit
+
+interface range gigabitEthernet 0/2/0-1
+description UPLINK to CORE-NETWORK
+switchport mode trunk
+switchport trunk allowed vlan all
+exit
+
+ip route 0.0.0.0 0.0.0.0 61.19.23.149
+ip default-gateway 61.19.23.149

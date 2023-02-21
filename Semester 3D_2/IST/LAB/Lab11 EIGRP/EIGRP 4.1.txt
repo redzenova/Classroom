@@ -1,0 +1,106 @@
+Configuration Host
+
+Pc X => 172.1.0.2	255.255.254.0		172.1.0.1
+Pc Y => 172.1.2.2	255.255.255.128		172.1.2.1
+Pc Z => 192.168.3.2	255.255.255.0		192.168.3.1
+
+================== Udon Router ==================
+enable
+configure terminal
+hostname Udon
+enable secret cisco
+line console 0
+password cisco
+login
+exit
+line vty 0
+password cisco
+login
+exit
+interface serial 0/0/0
+ip address 172.1.2.129 255.255.255.252
+no shutdown
+exit
+interface gi 0/0
+ip address 172.1.0.1 255.255.254.0
+no shutdown
+exit
+router eigrp 123
+passive-interface gigabitEthernet 0/0
+eigrp router-id 1.1.1.1
+network 172.1.0.0 0.0.1.255
+network 172.1.2.128 0.0.0.3
+end
+
+
+
+================== Bangkok Router ==================
+enable
+configure terminal
+hostname Bangkok
+enable secret cisco
+line console 0
+password cisco
+login
+exit
+line vty 0
+password cisco
+login
+exit
+interface serial 0/0/0
+ip address 192.168.2.5 255.255.255.252
+clock rate 56000
+no shutdown
+exit
+interface serial 0/0/1
+ip address 172.1.2.130 255.255.255.252
+clock rate 56000
+no shutdown
+exit
+interface gi 0/0
+ip address 172.1.2.1 255.255.255.128
+no shutdown
+exit
+router eigrp 123
+passive-interface gigabitEthernet 0/0
+eigrp router-id 2.2.2.2
+network 172.1.2.128 0.0.0.3
+network 172.1.2.0 0.0.0.127
+exit
+ip route 0.0.0.0 0.0.0.0 192.168.2.6
+router eigrp 123
+redistribute static
+end
+
+
+
+
+================== Phuket Router ==================
+enable
+configure terminal
+hostname Phuket
+enable secret cisco
+line console 0
+password cisco
+login
+exit
+line vty 0
+password cisco
+login
+exit
+interface serial 0/0/1
+ip address 192.168.2.6 255.255.255.252
+no shutdown
+exit
+interface gi 0/0
+ip address 192.168.3.1 255.255.255.0
+no shutdown
+exit
+interface lo 0
+ip address 10.1.1.1 255.255.255.252
+no shutdown
+exit
+
+ip route 172.1.0.0 255.255.252.0 192.168.2.5
+ip route 0.0.0.0 0.0.0.0 10.0.0.0
+exit

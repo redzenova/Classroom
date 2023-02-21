@@ -1,0 +1,17 @@
+en
+conf t
+line vty 0 4
+password cisco
+login 
+exit
+
+access-list 100 deny tcp 172.1.0.0 0.0.1.255 192.168.3.0 0.0.0.255 eq 20
+access-list 100 deny tcp 172.1.0.0 0.0.1.255 192.168.3.0 0.0.0.255 eq 21
+access-list 100 permit ip any any
+
+int fa 0/0
+ip access-group 100 in
+
+
+
+

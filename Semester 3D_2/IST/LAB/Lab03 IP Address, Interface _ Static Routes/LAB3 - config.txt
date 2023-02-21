@@ -1,0 +1,55 @@
+3.1-2
+[BKK Router]
+en
+conf t
+hostname BKK
+int se 0/0/0
+ip add 192.168.11.1 255.255.255.0
+clock rate 56000
+no sh
+exit
+int gi 0/0
+ip add 192.168.1.1 255.255.255.0
+no sh
+exit
+router rip
+net 192.168.1.0
+net 192.168.11.0
+exit
+exit
+
+[NARA Router]
+en
+conf t
+hostname NARA
+int se 0/0/0
+ip add 192.168.11.2 255.255.255.0
+no sh
+exit
+int gi 0/0
+ip add 192.168.2.1 255.255.255.0
+no sh
+exit
+router rip
+net 192.168.2.0
+net 192.168.11.0
+exit
+exit
+copy run start
+
+
+3.3
+[BKK Router]
+en
+conf t
+no router rip
+ip route 192.168.2.0 255.255.255.0 192.168.11.2
+exit
+
+
+[NARA Router]
+en
+conf t
+no router rip
+ip route 192.168.1.0 255.255.255.0 192.168.11.1
+exit

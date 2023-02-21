@@ -1,0 +1,44 @@
+en 
+erase startup-config
+reload
+
+en
+conf t
+hostname Phuket 
+int se 0/1
+ip addr 192.168.2.6 255.255.255.252
+bandwidth 2048
+no sh
+ex
+int fa 0/0
+ip addr 192.168.3.254 255.255.255.0
+no sh
+ex
+int se 0/0
+ip addr 192.168.2.9 255.255.255.252
+clock rate 56000
+ip ospf cost 1562
+no sh
+ex
+int lo 0
+ip addr 10.3.3.1 255.255.255.252
+no sh
+ex
+
+service dhcp
+ip dhcp pool LAN-POOL-Z
+network 192.168.3.0 255.255.255.0
+default-router 192.168.3.254
+ex
+ip dhcp excluded-address 192.168.3.1 192.168.3.10
+ip dhcp excluded-address 192.168.3.254
+
+router ospf 3
+router-id 3.3.3.3
+default-information originate
+network 192.168.2.4 0.0.0.3 area 0
+network 192.168.3.0 0.0.0.255 area 0
+network 192.168.2.8 0.0.0.3 area 0
+ex
+
+ip route 0.0.0.0 0.0.0.0 loopback 0

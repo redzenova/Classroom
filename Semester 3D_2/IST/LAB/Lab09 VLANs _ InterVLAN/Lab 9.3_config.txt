@@ -1,0 +1,90 @@
+============= Switch_A ==============
+enable
+config terminal
+hostname Switch_A
+enable secret class
+line console 0
+password Cisco
+login
+exit
+line vty 0
+password Cisco
+login
+exit
+vlan 1 
+name Native
+exit
+vlan 10 
+name NetworkLab
+exit
+vlan 20 
+name IsagLab
+exit
+vlan 30 
+name HwLab
+exit
+interface vlan 1
+ip address 192.168.12.1 255.255.255.0
+no shutdown
+exit
+interface range fa0/4-6
+switchport mode access
+switchport access vlan 10
+exit
+interface range fa0/7-9
+switchport mode access
+switchport access vlan 20
+exit
+interface range fa0/10-12
+switchport mode access
+switchport access vlan 30
+exit
+interface fa0/1
+switchport mode trunk
+end
+
+
+============= Switch_B ==============
+enable
+config terminal
+hostname Switch_B
+enable secret class
+line console 0
+password Cisco
+login
+exit
+line vty 0
+password Cisco
+login
+exit
+vlan 1 
+name Native
+exit
+vlan 10 
+name NetworkLab
+exit
+vlan 20 
+name IsagLab
+exit
+vlan 30 
+name HwLab
+exit
+interface vlan 1
+ip address 192.168.12.2 255.255.255.0
+no shutdown
+exit
+interface range fa0/4-6
+switchport mode access
+switchport access vlan 10
+exit
+interface range fa0/7-9
+switchport mode access
+switchport access vlan 20
+exit
+interface range fa0/10-12
+switchport mode access
+switchport access vlan 30
+exit
+interface fa0/1
+switchport mode trunk
+end

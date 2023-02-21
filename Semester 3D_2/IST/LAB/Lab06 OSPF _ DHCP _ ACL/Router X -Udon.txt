@@ -1,0 +1,37 @@
+en 
+erase startup-config
+reload
+
+en
+conf t
+hostname Udon 
+int se 0/1
+ip addr 192.168.2.10 255.255.255.252
+bandwidth 64
+no sh
+ex
+int fa 0/0
+ip addr 172.1.1.254 255.255.254.0
+no sh
+ex
+int se 0/0
+ip addr 172.1.2.129 255.255.255.252
+ip ospf cost 32
+no sh
+ex
+
+service dhcp
+ip dhcp pool LAN-POOL-X
+network 172.1.0.0 255.255.254.0
+default-router 172.1.1.254
+ex
+ip dhcp excluded-address 172.1.0.1 172.1.0.10
+ip dhcp excluded-address 172.1.1.254
+
+
+router ospf 1
+router-id 1.1.1.1
+network 192.168.2.8 0.0.0.3 area 0
+network 172.1.0.0 0.0.1.255 area 0
+network 172.1.2.128 0.0.0.3 area 0
+ex

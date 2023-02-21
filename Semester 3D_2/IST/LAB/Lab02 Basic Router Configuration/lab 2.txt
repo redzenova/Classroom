@@ -1,0 +1,123 @@
+1.5 ไม่มีค่า config ใดๆ  อยู่เลย 
+
+2.1.2 Router>
+2.2.2 Router#
+2.3.2 Router(config)#
+2.4.2 Router(config-router)#
+2.5.3 Router(config-if)#
+2.6.1 GAD(config)#
+
+3.11 เมื่อทำการใส่ ccna ตัว router จะให้เราใส่ Password: อีกครั้ง เมื่อใส่ครบจำนวน 3 ครั้งจะขึ้น  % Bad secrets ไม่สามารถเข้าสู่ Privilege Mode ได้
+3.12 เมื่อทำการใส่ class ตัว router อนุญาติให้เข้าสู่ Privilege Mode ได้
+3.13 
+enable secret 5 $1$mERr$9cTjUIEqNGurQiFU.ZeCi1
+enable password ccna
+
+3.14 เป็นการตั้ง password ในกับ enable mode หรือ Privilege mode โดยหากเป็นการตั้ง password ซึ่งเป็น clear text เพียงอย่างเดียว router จะนำมาใช้ แต่หาก
+มีการตั้ง secret ซึ่งมีการ encrypt เอาไว้ตัว router จะนำ secret ที่เราตั้งไว้มาใช้ในการยืนยันตัวตนแทน password ธรรมดา
+
+4.1.1
+Exec commands:
+  <1-99>      Session number to resume
+  connect     Open a terminal connection
+  disable     Turn off privileged commands
+  disconnect  Disconnect an existing network connection
+  enable      Turn on privileged commands
+  exit        Exit from the EXEC
+  logout      Exit from the EXEC
+  ping        Send echo messages
+  resume      Resume an active network connection
+  show        Show running system information
+  ssh         Open a secure shell client connection
+  telnet      Open a telnet connection
+  terminal    Set terminal line parameters
+  traceroute  Trace route to destination
+
+4.2  ** เอกสารผิดจาก Global Configuration Mode เปลี่ยนเป็น Privilege mode 
+4.2.1
+GAD# show ip route
+เป็นคำสั่งที่แสดง routing table บนตัว router
+
+GAD# show privilege
+Privilege level 0 สามารถใช้คำสั่ง disable, enable, exit, help และ logout ได้ในโหมด User Exec Mode
+Privilege level 1 สามารถใช้งานได้ทุกคำสั่งใน User Exec Mode
+Privilege level 2-14 สามารถใช้งานคำสั่งในโหมด Privileged Exec Mode 
+ - Privilege level 2-7 นั้นสามารถใช้ได้เพียงคำสั่งที่ใช้สำหรับดูสถานะในการทำงานของอุปกรณ์ จะไม่สามารถใช้คำสั่ง Configure เพื่อเข้าสู่โหมด Configure ได้ และไม่สามารถใช้คำสั่ง show run เพื่อเรียกดูค่าคอนฟิกในปัจจุบันได้
+ - Privilege level 8 ขึ้นไปสามารถที่จะใช้คำสั่ง configure เพื่อเข้าสู่โหมด Configure ได้ 
+Privilege level 15 สามารถใช้งานได้ทุกคำสั่งในโหมด Privileged Exec Mode ได้ และสามารถเข้าสู่โหมด Configure เพื่อทำการคอนฟิกได้
+
+GAD# show clock
+แสดงเวลาปัจจุบันบนตัว Router
+
+4.3.2 15.1(4)M4
+4.3.3 flash0:c2900-universalk9-mz.SPA.151-1.M4.bin
+4.3.4 load มาจาก flash memory
+4.3.5 
+CPU : FTX152400KS (Dynamips)
+หน่วยความจำ : 
+DRAM 491520K (use) + 32768K (reserve for packet buffer) = 524288KB = 512 MB
+NVRAM  255 KB ( startup-config file is stored and used by IOS when router is booting up or reloaded)
+Flash  249856 KB = 244 MB (Cisco IOS is stored)
+
+4.3.6  ไม่มี interface ที่เป็น FastEthernet
+4.3.7   มี interface ที่เป็น GigabitEthernet จำนวน 2 interface
+4.3.8   มี interface ที่เป็น  Serial จำนวน 2 interface
+4.3.9  255 KB
+4.3.10 249856 KB
+4.3.11 0x2102
+
+4.4.1 17:3:14.202 Bangkok Mon Aug 9 2021
+4.5 
+  show int 
+   sh ver
+  show clock 
+  confi ter
+  sho clo
+  configure t
+  clock set 10:03:10
+  clock set 10:03:10 9 AUG 2021
+  show clock 
+  show history 
+
+4.6.2  [33847587 bytes used, 221896413 available, 255744000 total]
+4.6.3
+System flash directory:
+File  Length   Name/status
+  3   33591768 c2900-universalk9-mz.SPA.151-4.M4.bin
+  2   28282    sigdef-category.xml
+  1   227537   sigdef-default.xml
+
+4.7.1
+section :
+hostname
+enable
+spanning-tree
+interface
+ip
+line
+
+4.7.2 startup-config is not present ยังไม่ได้มีการบันทึกค่าจาก running-config (DRAM) ไปเก็บไว้ใน
+startup-config (NVRAM)
+
+4.7.4  มีข้อมูลเหมือนกันกับ running-config โดยข้อมูลดังกล่าว จะถูกเก็บอยู่ใน NVRAM
+
+4.8.2 
+i MTU = 1500 byte
+ii Keepalive = 10 sec
+iii Bandwidth = 1544 Kbit
+
+4.9.1 
+# configure terminal
+
+4.9.2
+GAD# configure terminal
+GAD(config)# interface gigabitEthernet 0/0
+GAD(config-if)#
+
+4.9.3
+GAD(config-if)#ip address 192.168.1.1 255.255.255.0
+GAD(config-if)#no shutdown
+ห
+4.9.4 ไม่ได้
+4.9.5 ต้องทำการแก้ไขโดยการกำหนดค่า IP Address ให้กับเครื่องคอมพิวเตอร์ ให้อยู่ใน subnet เดียวกันกับ interface Gigabit 0/0 
+บนตัว Router ในที่นี้ผมจะกำหนดเป็น 192.168.1.10 255.255.255.0

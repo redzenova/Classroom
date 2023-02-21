@@ -1,0 +1,46 @@
+============= Switch_A ==============
+enable
+config terminal
+hostname Switch_A
+vlan 1 
+name Native
+exit
+vlan 10 
+name NetworkLab
+exit
+vlan 20 
+name IsagLab
+exit
+interface vlan 1
+ip address 192.168.12.1 255.255.255.0
+no shutdown
+exit
+interface range fa0/1-2
+switchport mode access
+switchport access vlan 10
+exit
+interface range fa0/3-4
+switchport mode access
+switchport access vlan 20
+exit
+interface fa0/15
+switchport mode trunk
+end
+
+
+============= Router ==============
+enable
+config terminal
+interface fa0/0
+no shutdown
+interface fa0/0.10
+desc vlan 10
+encap dot 10
+ip address 192.168.1.254 255.255.255.0
+exit
+interface fa0/0.20
+desc vlan 20
+encap dot 20
+ip address 192.168.2.254 255.255.255.0
+exit
+end

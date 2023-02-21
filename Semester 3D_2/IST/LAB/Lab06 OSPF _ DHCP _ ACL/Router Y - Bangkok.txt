@@ -1,0 +1,39 @@
+en 
+erase startup-config
+reload
+
+en
+conf t
+hostname Bangkok 
+int se 0/1
+ip addr 172.1.2.130 255.255.255.252
+clock rate 56000
+bandwidth 3088
+no sh
+ex
+int fa 0/0
+ip addr 172.1.2.126 255.255.255.128
+no sh
+ex
+int se 0/0
+ip addr 192.168.2.5 255.255.255.252
+clock rate 56000
+ip ospf cost 48
+no sh
+ex
+
+service dhcp
+ip dhcp pool LAN-POOL-Y
+network 172.1.2.0 255.255.255.128
+default-router 172.1.2.126
+ex
+ip dhcp excluded-address 172.1.2.1 172.1.2.10
+ip dhcp excluded-address 172.1.2.126
+
+
+router ospf 2
+router-id 2.2.2.2
+network 172.1.2.128 0.0.0.3 area 0
+network 172.1.2.0 0.0.0.127 area 0
+network 192.168.2.4 0.0.0.3 area 0
+ex

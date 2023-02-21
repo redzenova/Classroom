@@ -1,0 +1,109 @@
+enable
+configure terminal
+hostname NBI-BANGNA
+
+enable secret ADmiN@@#IST
+
+ip routing
+
+interface range GigabitEthernet 1/1/1-4
+no switchport
+exit
+
+interface range GigabitEthernet 1/0/1-4
+no switchport
+exit
+
+interface port-channel 1
+description Uplink to BKK-BANGRAK
+no switchport 
+exit
+
+interface port-channel 2
+description Uplink to BKK-CBTW
+no switchport 
+exit
+
+interface port-channel 3
+description Uplink to NBI-BANGNA
+no switchport 
+exit
+
+interface port-channel 4
+description Uplink to CBI-SRIRACHA
+no switchport
+exit
+
+interface GigabitEthernet 1/1/1
+channel-group 1 mode active
+exit
+interface GigabitEthernet 1/0/1
+channel-group 1 mode active
+exit
+
+interface GigabitEthernet 1/1/2
+channel-group 2 mode active
+exit
+interface GigabitEthernet 1/0/2
+channel-group 2 mode active
+exit
+
+interface GigabitEthernet 1/1/3
+channel-group 3 mode active
+exit
+interface GigabitEthernet 1/0/3
+channel-group 3 mode active
+exit
+
+interface GigabitEthernet 1/1/4
+channel-group 4 mode active
+exit
+interface GigabitEthernet 1/0/4
+channel-group 4 mode active
+exit
+
+interface loopback 1
+ip address 191.101.185.1 255.255.255.0
+exit
+
+router eigrp 65001
+no auto-summary
+network 191.101.185.0 0.0.0.255
+network 10.95.3.0 0.0.0.255
+network 10.200.3.0 0.0.0.3
+network 10.200.23.0 0.0.0.3
+network 10.200.43.0 0.0.0.3
+exit
+
+interface port-channel 1
+no shutdown
+ip address 10.200.3.2 255.255.255.252
+exit
+
+interface port-channel 2
+no shutdown
+ip address 10.200.23.2 255.255.255.252
+exit
+
+interface port-channel 3
+no shutdown
+exit
+
+interface port-channel 4
+no shutdown
+ip address 10.200.43.2 255.255.255.252
+exit
+
+vlan 950
+exit
+
+interface vlan 950
+description MANAGEMENT-NETWORK
+ip address 10.95.3.1 255.255.255.0
+exit
+
+interface range gigabitEthernet 1/0/10-11
+switchport trunk encapsulation dot1q 
+switchport mode trunk
+switchport trunk allowed vlan all
+exit

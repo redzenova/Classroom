@@ -1,0 +1,18 @@
+enable
+config terminal
+hostname Switch_A
+enable secret class
+line console 0
+password Cisco
+login
+exit
+line vty 0
+password Cisco
+login
+exit
+interface vlan 1
+ip address 192.168.1.2 255.255.255.0
+no shutdown
+exit
+ip default-gateway 192.168.1.1
+exit

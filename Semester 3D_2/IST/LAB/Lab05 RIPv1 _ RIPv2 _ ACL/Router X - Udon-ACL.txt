@@ -1,0 +1,9 @@
+en
+conf t
+access-list 1 deny host 192.168.1.2
+access-list 1 deny host 172.1.2.2
+access-list 1 permit any
+int fa 0/0
+ip access-group 1 out 
+ex
+ex
